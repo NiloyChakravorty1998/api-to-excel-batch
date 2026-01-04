@@ -13,7 +13,7 @@ def write_posts_to_excel(posts: list):
     ws = wb.active
     ws.title = "Posts"
 
-    headers = ["userId", "id", "title", "body"]
+    headers = ["User Id", "Post Id", "Title", "Body"]
     ws.append(headers)
 
     for post in posts:
